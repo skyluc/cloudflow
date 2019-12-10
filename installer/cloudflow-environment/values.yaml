@@ -61,6 +61,7 @@ operator:
   image:
     name: ""
     pullPolicy: "IfNotPresent"
+  serviceAccount: "cloudflow-operator"
   resources:
     requests:
       cpu: ""

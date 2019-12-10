@@ -34,7 +34,7 @@ spec:
       annotations:
       labels: {{ include "operator.labels" . | indent 8 }}
     spec:
-      serviceAccountName: {{ template "operator.name" . }}
+      serviceAccountName: {{ .Values.operator.serviceAccount }}
       automountServiceAccountToken: true
       containers:
         - name: {{ template "operator.name" . }}
