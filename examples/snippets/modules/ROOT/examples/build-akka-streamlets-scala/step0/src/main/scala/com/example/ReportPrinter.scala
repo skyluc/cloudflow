@@ -8,6 +8,8 @@ import cloudflow.streamlets.avro._
 import cloudflow.akkastream._
 import cloudflow.akkastream.scaladsl._
 
+// version master
+
 object ReportPrinter extends AkkaStreamlet {
   // 1. TODO Create inlets and outlets
   // 2. TODO Define the shape of the streamlet
